@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "greetings"
+		},
+		{
+			"path": "hello"
+		},
+		{
+			"path": "variables"
+		},
+		{
+			"path": "primitives"
+		},
+		{
+			"path": "constants"
+		},
+		{
+			"path": "arrays_slices"
+		}
+	],
+	"settings": {}
+}
