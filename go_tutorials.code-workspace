@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "arrays_slices"
+		},
+		{
+			"path": "maps_structs"
 		}
 	],
 	"settings": {}

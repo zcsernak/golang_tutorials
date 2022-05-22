@@ -59,7 +59,7 @@ func main() {
 	fmt.Println(zsé)
 
 	madeSlice := make([]int, 3, 5)
-	fmt.Println(madeSlice)
+	fmt.Printf("%v, %T\n", madeSlice, madeSlice)
 	fmt.Printf("Length: %v\n", len(madeSlice))
 	fmt.Printf("Capacity: %v\n", cap(madeSlice))
 
