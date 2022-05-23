@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "maps_structs"
+		},
+		{
+			"path": "if_switch"
 		}
 	],
 	"settings": {}
