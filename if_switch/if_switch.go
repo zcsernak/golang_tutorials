@@ -109,7 +109,7 @@ func switchExample() {
 func switchExample2() {
 	switch i := 2 + 3; i {
 	case 1, 5, 10:
-		fmt.Println("one, fice or ten")
+		fmt.Println("one, five or ten")
 	case 2, 4, 6:
 		fmt.Println("two, four or six")
 	default:
@@ -122,7 +122,7 @@ func taglessSwitch() {
 	switch {
 	case i <= 10:
 		fmt.Println("less than or equal to ten")
-		fallthrough // other logic won't be executed
+		fallthrough // other case logic won't be executed (so if the logic would be i <= -20 that wouldn't matter, the print would run)
 	case i <= 20: // overlapping is allowed here
 		fmt.Println("less than or equal to twenty")
 	default:

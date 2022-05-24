@@ -23,6 +23,9 @@
 		},
 		{
 			"path": "if_switch"
+		},
+		{
+			"path": "looping"
 		}
 	],
 	"settings": {}
