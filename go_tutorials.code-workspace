@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "defer_panic_recover"
+		},
+		{
+			"path": "pointers"
 		}
 	],
 	"settings": {}
