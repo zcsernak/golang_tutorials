@@ -26,6 +26,9 @@
 		},
 		{
 			"path": "looping"
+		},
+		{
+			"path": "defer_panic_recover"
 		}
 	],
 	"settings": {}

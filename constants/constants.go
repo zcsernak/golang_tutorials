@@ -9,7 +9,7 @@ const a = 27
 const (
 	x = iota // ~counter starting from 0
 	y
-	z // iota lesz ez is
+	z // this will be iota as well
 )
 
 const (
