@@ -32,6 +32,9 @@
 		},
 		{
 			"path": "pointers"
+		},
+		{
+			"path": "functions"
 		}
 	],
 	"settings": {}
