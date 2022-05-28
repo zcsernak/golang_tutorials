@@ -35,6 +35,9 @@
 		},
 		{
 			"path": "functions"
+		},
+		{
+			"path": "interfaces"
 		}
 	],
 	"settings": {}
