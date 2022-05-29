@@ -38,6 +38,9 @@
 		},
 		{
 			"path": "interfaces"
+		},
+		{
+			"path": "goroutines"
 		}
 	],
 	"settings": {}
