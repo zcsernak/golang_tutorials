@@ -31,7 +31,7 @@ func Hellos(names []string) (map[string]string, error) {
 		if err != nil {
 			return nil, err
 		}
-		// in the map, associate the retrived message with the name
+		// in the map, associate the retrieved message with the name
 		messages[name] = message
 	}
 	return messages, nil
@@ -51,6 +51,6 @@ func randomFormat() string {
 		"Hail, %v! Well met!",
 	}
 
-	// Return a randomly selected message format by specifying a rnaomd index for the slice of formats.
+	// Return a randomly selected message format by specifying a random index for the slice of formats.
 	return formats[rand.Intn(len(formats))]
 }

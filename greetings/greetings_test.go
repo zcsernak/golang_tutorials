@@ -15,7 +15,7 @@ func TestHelloName(t *testing.T) {
 	}
 }
 
-// TesstHelloEmpty calls greetings.Hello with an empty string, checking for and error.
+// TesstHelloEmpty calls greetings.Hello with an empty string, checking for an error.
 func TestHelloEmpty(t *testing.T) {
 	msg, err := Hello("")
 	if msg != "" || err == nil {
