@@ -37,7 +37,7 @@ func main() {
 	fmt.Println(statePopulations)
 
 	pop, ok := statePopulations["Georgia"]
-	fmt.Println(pop, ok) // 'ok' is false if the key os not in the map
+	fmt.Println(pop, ok) // 'ok' is false if the key is not in the map
 
 	fmt.Println(len(statePopulations))
 

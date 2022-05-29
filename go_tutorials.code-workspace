@@ -41,6 +41,9 @@
 		},
 		{
 			"path": "goroutines"
+		},
+		{
+			"path": "channels"
 		}
 	],
 	"settings": {}
